@@ -1,0 +1,13 @@
+[package]
+name = "testcrate"
+version = "0.1.0"
+authors = ["finga <finga@onders.org>"]
+edition = "2018"
+
+[dependencies]
+libc = "0.2"
+
+[features]
+
+[build-dependencies]
+boolector-src = { path = ".." }

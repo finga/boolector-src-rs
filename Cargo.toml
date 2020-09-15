@@ -1,0 +1,16 @@
+[package]
+name = "boolector-src"
+version = "0.1.0-alpha+3.2.1"
+authors = ["finga <finga@onders.org>"]
+edition = "2018"
+keywords = ["ffi", "src", "smt"]
+readme = "README.md"
+repository = "https://github.com/finga/boolector-src-rs"
+description = "Source of Boolector and logic to build it."
+
+[features]
+default = []
+
+[dependencies]
+cc = "1.0"
+cmake = "0.1"
